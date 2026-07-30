@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Radar diário de licitações, diários oficiais e habite-se para empresas de engenharia, instalação e manutenção predial em todo o Brasil.">
-<title>Caça Obras — o radar que acha a próxima obra antes da concorrência</title>
+<title>Pega Obras — o radar que acha a próxima obra antes da concorrência</title>
 <style>
   @font-face {
     font-family: "Big Shoulders Display";
@@ -527,7 +527,7 @@
 
 <div class="topbar">
   <div class="brand">
-    <span class="brand-mark">CAÇA OBRAS</span>
+    <span class="brand-mark">PEGA OBRAS</span>
     <span class="brand-tag">radar de oportunidades</span>
   </div>
   <button class="theme-toggle" id="themeToggle" type="button" aria-label="Alternar tema claro/escuro">MODO: AUTO</button>
@@ -541,7 +541,7 @@
       <h1 class="headline">Ache a obra<br><span class="stroke">antes</span><br>do concorrente.</h1>
       <p class="sub">Todo dia de madrugada, um robô cruza licitações públicas, Diários Oficiais e habite-se recém-saídos pra achar quem vai precisar da sua empresa — antes que alguém mais ligue primeiro.</p>
       <div class="hero-ctas">
-        <a class="btn btn-primary" href="https://caca-obras.streamlit.app" target="_blank" rel="noopener">Entrar na lista de espera</a>
+        <a class="btn btn-primary" href="https://pega-obras.streamlit.app" target="_blank" rel="noopener">Entrar na lista de espera</a>
         <a class="btn" href="#como-funciona">Ver como funciona ↓</a>
       </div>
       <div class="hero-note" style="margin-top:18px;">Ainda em fase de validação — sem cobrança, sem cadastro chato.</div>
@@ -629,7 +629,7 @@
       </div>
       <div class="signup">
         <a class="btn btn-primary" style="justify-content:center; font-size:14px; padding:18px 22px;"
-           href="https://caca-obras.streamlit.app" target="_blank" rel="noopener">
+           href="https://pega-obras.streamlit.app" target="_blank" rel="noopener">
           Deixar meu e-mail →
         </a>
         <p class="signup-fine">Abre em outra aba, é só digitar o e-mail e confirmar. Sem spam, sem lista compartilhada.</p>
@@ -639,7 +639,7 @@
 
   <footer>
     <div class="foot-row">
-      <span>Caça Obras — nascido da prospecção real da G3 Instalações e Engenharia.</span>
+      <span>Pega Obras — nascido da prospecção real da G3 Instalações e Engenharia.</span>
       <span class="mono">SP · BRASIL · EM VALIDAÇÃO</span>
     </div>
   </footer>
@@ -651,7 +651,7 @@
     var root = document.documentElement;
     var toggle = document.getElementById("themeToggle");
     var stored = null;
-    try { stored = localStorage.getItem("caca-obras-theme"); } catch (e) {}
+    try { stored = localStorage.getItem("pega-obras-theme"); } catch (e) {}
     if (stored === "light" || stored === "dark") {
       root.setAttribute("data-theme", stored);
       toggle.textContent = "MODO: " + (stored === "dark" ? "ESCURO" : "CLARO");
@@ -663,7 +663,7 @@
       var next = effective === "dark" ? "light" : "dark";
       root.setAttribute("data-theme", next);
       toggle.textContent = "MODO: " + (next === "dark" ? "ESCURO" : "CLARO");
-      try { localStorage.setItem("caca-obras-theme", next); } catch (e) {}
+      try { localStorage.setItem("pega-obras-theme", next); } catch (e) {}
     });
   })();
 </script>

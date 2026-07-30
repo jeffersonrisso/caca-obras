@@ -1,6 +1,6 @@
-# Caça Obras — landing page
+# Pega Obras — landing page
 
-Página de validação do produto, publicada via GitHub Pages em [cacaobras.com.br](https://cacaobras.com.br).
+Página de validação do produto, publicada via GitHub Pages em [pegaobras.com.br](https://pegaobras.com.br).
 
 O formulário de cadastro leva para o app de captação separado (`waitlist_app.py` no
 repositório [g3-leads](https://github.com/jeffersonrisso/g3-leads)), que grava direto no
